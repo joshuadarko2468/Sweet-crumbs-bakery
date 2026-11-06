@@ -1,0 +1,17 @@
+/* Simple styling for our bakery website */
+body { font-family: Arial, sans-serif; margin: 0; background: #fff9f2; color: #46362d; line-height: 1.6; }
+header { background: #875239; color: white; text-align: center; padding: 25px 15px; }
+header h1 { margin: 0; }
+header p { margin: 4px 0 18px; }
+nav a { color: white; margin: 0 12px; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+main { max-width: 900px; margin: auto; padding: 20px; }
+section { margin-bottom: 28px; }
+h2 { color: #875239; }
+.welcome { background: #f7e7d7; padding: 18px 22px; border-radius: 8px; }
+.menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; }
+.item { background: white; padding: 15px; border: 1px solid #ead6c4; border-radius: 8px; }
+.item h3 { margin: 0; }
+.item p { font-weight: bold; margin-bottom: 0; }
+footer { background: #875239; color: white; text-align: center; padding: 18px; }
+footer p { margin: 5px; }
